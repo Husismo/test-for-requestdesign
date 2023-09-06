@@ -1,0 +1,9 @@
+@import "./components/reset.scss";
+@import "./components/variables.scss";
+.search__img {
+  width: 20px;
+  height: 20px;
+}
+body {
+  color: $gray;
+}
