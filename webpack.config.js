@@ -27,16 +27,12 @@ module.exports = {
         use: "html-loader",
       },
       {
-        test: /\.(jpg|png|jpeg|gif)$/,
+        test: /\.(jpg|svg|png|jpeg|gif)$/,
         type: "asset/resource",
       },
       {
         test: /\.s[ac]ss$/i,
         use: ["style-loader", "css-loader", "sass-loader"],
-      },
-      {
-        test: /\.svg$/,
-        loader: "svg-sprite-loader",
       },
     ],
   },
